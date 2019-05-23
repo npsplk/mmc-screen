@@ -1,0 +1,72 @@
+@media (min-width: 1920px) and (max-width: 2560px) {
+     .button p {
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+     #theatre p {
+         width: 75%;
+    }
+     div#link {
+        top: 80%;
+        transform: translatex(-50%);
+    }
+}
+/* ------------------------------------------------- Large Screen. ---------------------------------------------------*/
+ @media (min-width: 1366px) and (max-width: 1920px) {
+     .button p {
+         font-size: 3vw;
+         padding: 3vw;
+    }
+     div#link {
+        top: 72%;
+        transform: translatex(-50%);
+    }
+}
+/* ------------------------------------------------- Laptop Screen ---------------------------------------------------*/
+ @media (min-width:922px) and (max-width: 1366px) {
+     .button p {
+         font-size: 2.5vw;
+         padding: 2vw;
+    }
+     #theatre p {
+         width: 50%;
+    }
+     div#link {
+        /* position: absolute;
+         */
+        top: 72%;
+        left: 50%;
+        display: block;
+        width: 88%;
+        transform: translateX(-50%);
+        /* margin-left: 5vw;
+         */
+    }
+     .counter-section {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+    }
+     .buttton-click {
+         position: relative;
+         height: 100vh;
+         width: 100%;
+         z-index: 15;
+    }
+     .button {
+        /* text-align: left;
+         */
+         margin-top: -1px;
+    }
+ }
+    /* ------------------------------------------------- Small Mobile ---------------------------------------------------*/
+     @media screen and (max-width: 768px) {
+         body {
+             text-align: center;
+             background: url(../img/logo-mob.png) 50% 20% no-repeat, url(../img/topleft-mob.png) 0 0 no-repeat, url(../img/bottomright-mob.png) 100% 100% no-repeat, #fff;
+             cursor: pointer;
+             background-size: unset;
+        }
+    }

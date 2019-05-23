@@ -1,0 +1,149 @@
+
+* {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.navbar-basic.navbar-outline
+{
+    background-color: transparent;
+    border-color: rgba(94, 94, 94,.5);
+    border-width:1px;
+    border-radius: 6px;
+}
+
+.btn-outline
+{
+    background-color: transparent;
+    border-color: rgba(94, 94, 94,.5);
+    color: rgba(94, 94, 94,.8);
+    border-width:1px;
+}
+
+.navbar-btn .btn-outline:hover
+{
+    background-color: transparent;
+    border-color: rgb(94, 94, 94);
+    color: rgb(94, 94, 94);
+    border-width:1px;
+    transition: all .5s;
+}
+
+.navbar-btn .form-control, 
+input[type="text"]
+{
+    background-color: #ffffff;
+    border-color: rgba(94, 94, 94,.5);
+    color: rgba(94, 94, 94,.8);
+    border-width: 1px;
+}
+
+.form-control:hover, 
+.form-control:focus, 
+.form-control:active, 
+.form-control.active,
+.form-control.focus,
+input[type="text"]:hover, 
+input[type="text"]:focus, 
+input[type="text"]:active, 
+input[type="text"].active 
+input[type="text"]:focus,
+input[type="text"].focus
+{
+    background-color: #ffffff;
+    border-color: rgb(94, 94, 94);
+    color: rgba(94, 94, 94);
+    border-width: 1px;
+    transition: all .5s;
+}
+
+.navbar-left .btn-outline
+{
+    margin-left:10px;   
+}
+
+.navbar-right .btn-outline
+{
+    margin-right:10px;   
+}
+
+
+.widthOrg input[type="text"] 
+{
+    width: 220px;   
+}
+
+.widthUser input[type="text"] 
+{
+    width: 271px;   
+}
+
+.widthSearch input[type="text"] 
+{
+    width: 324px;   
+}
+
+.navbar-default.navbar-outline
+{
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.btn-outline
+{
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.slate .navbar-btn .btn-outline 
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(94, 94, 94, 0.5);
+    border-width: 1px;
+    color: white;
+}
+
+.slate dash-widget .btn disabled 
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(94, 94, 94, 0.5);
+    border-width: 1px;
+    color: white;
+}
+
+
+
+

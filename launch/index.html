@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Free coming soon template with jQuery countdown">
+      <meta name="author" content="http://bootstraptaste.com">
+      <title>MMC</title>
+      <!-- Bootstrap -->
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+      <link href="assets/css/font-awesome.css" rel="stylesheet">
+      <!-- siimple style -->
+      <link href="assets/css/style.css" rel="stylesheet">
+       <link href="assets/css/responsive.css" rel="stylesheet">
+      <script src="assets/js/jquery-1.9.1.js" type="text/javascript"></script>
+   </head>
+   <body >
+      <span class=""></span>
+      <div id="theatre">
+         <div class="container-fluid">
+                     <div class="row">
+                           <div class="page">
+                              <div class="col-md-12">
+                                 <div>
+                                    <div class="buttton-click">
+                                                                           <div id="link" class="button">
+                                       <p >දියත් කරන්න</p>
+                                    </div>
+                                    </div>
+                                    <div class="counter-section">
+                                                                           <div  class="couteraa">
+                                       <div   id="show" class="counter-time">
+                                          <div><a id="startClock" class="btn btn-theme">x</a> </div>
+                                          <span id="count" class="already">10</span>
+                                       </div>
+                                    </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.countdown.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+         function startTimer(){
+         var counter = 10;
+         setInterval(function() {
+         counter--;
+         if (counter >= 0) {
+         span = document.getElementById("count");
+         span.innerHTML = counter;
+         }
+         if (counter === 0) {
+         window.location.href = "http://www.mmc.lk/";
+         clearInterval(counter);
+         }
+         }, 1000);
+         }
+         $("#link").click(function(){
+         startTimer();
+         });
+         
+         $("#link").click(function(){
+         $("#count").addClass("intro");
+         });
+         
+         $("#link").click(function(){
+         $(".bgintro").addClass("after");
+         });
+      </script>
+      <script >
+         $(function(){
+             $('#link').on('click', function(){
+                  $("#show").addClass("show").removeClass("show2");
+             });
+         });
+         
+             
+      </script>
+      <style>
+         .display{
+         z-index: 99!important;
+         }
+         .show{
+         z-index: 99!important;
+         }
+      </style>
+   </body>
+</html>

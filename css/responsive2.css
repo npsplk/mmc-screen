@@ -1,0 +1,156 @@
+/* -------------------------------------------------
+  Large Screen. 
+---------------------------------------------------*/
+@media (min-width: 1366px) and (max-width: 1920px) {
+  
+
+}
+
+/* -------------------------------------------------
+  Laptop Screen 
+---------------------------------------------------*/
+@media (min-width:1200px) {
+  
+}
+
+
+/* -------------------------------------------------
+  Old Desktop
+---------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1169px) {
+
+
+
+}
+
+/* -------------------------------------------------
+  Tablet Screen 
+---------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+/* -------------------------------------------------
+  Large Screen. 
+---------------------------------------------------*/
+@media (min-width: 1366px) and (max-width: 1920px) {
+  
+
+}
+
+/* -------------------------------------------------
+  Laptop Screen 
+---------------------------------------------------*/
+@media (min-width:1200px)and (max-width: 1365px)  {
+.name h2 {
+    font-weight: 900;
+    margin-top: 1.8vh;
+    font-size: 4vw;
+}
+  
+}
+
+
+/* -------------------------------------------------
+  Old Desktop
+---------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1169px) {
+.name h2 {
+    font-weight: 900;
+    margin-top: 1.8vh;
+    font-size: 4vw;
+}
+
+
+
+}
+
+/* -------------------------------------------------
+  Tablet Screen 
+---------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.name h2 {
+    font-weight: 900;
+    margin-top: 1.8vh;
+    font-size: 4vw;
+}
+
+
+
+
+}
+/* -------------------------------------------------
+  Small Mobile
+---------------------------------------------------*/
+@media (max-width: 767px) {
+  .slider {
+    height: 360px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.Screen-header .slider {
+    height: 20.4vw;
+}
+.name h2 {
+    font-weight: 900;
+    margin-top: 0.8vh !important;
+    font-size: 4vw;
+}
+
+}
+
+/* -------------------------------------------------
+  Large Mobile 
+---------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+}
+/* -------------------------------------------------
+  Small Mobile
+---------------------------------------------------*/
+@media (max-width: 767px) {
+  .slider {
+    height: 360px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.Screen-header .slider {
+    height: 14.4vw;
+}
+.name h2 {
+    font-weight: 900;
+    margin-top: 0.8vh !important;
+    font-size: 4vw;
+}
+.date-time {
+    font-weight: 900;
+    margin-top: -2.8vw;
+    font-size: 1.5vw;
+    margin-right: 1.2vw;
+    text-align: right;
+}
+
+}
+
+/* -------------------------------------------------
+  Large Mobile 
+---------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+
